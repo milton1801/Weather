@@ -1,0 +1,293 @@
+
+body {
+  background: linear-gradient(to bottom,#6495ED , white);
+  height: 100vh; /* Full height */
+  margin: 0;
+}
+
+.content{
+
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(to bottom,#6495ED , white);
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-left: 35%;
+    margin-top: 70px;
+    
+  }
+  .search{
+    margin-left: 330px;
+    margin-top: -550px;
+    background: #6495ED;
+  }
+  #class2{
+    background: #6495ED;
+    color: whitesmoke;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right:none;
+    border-radius: 5px;
+    font-size: 11px;
+
+  }
+  #class2::placeholder{
+    color: whitesmoke;
+  }
+  .weather{
+    margin-left: 720px;
+    color: whitesmoke;
+    margin-top: -570px;
+    font-family: Gill Sans, sans-serif;
+  }
+  #location{
+    font-size: 25px;
+  }
+  #degrees{
+    font-size: 40px;
+    margin-left: 760px;
+    margin-top:-10px;
+    color: whitesmoke;
+
+  }
+  #temp{
+    font-size: 18px;
+    margin-left: 760px;
+    margin-top:-30px;
+    color: whitesmoke;
+
+  }
+  #humid{
+    font-size: 18px;
+    margin-left: 740px;
+    margin-top:-15px;
+    color: whitesmoke;
+
+  }
+ .h{
+margin-left: 350px;
+ }
+
+.list{
+  width: 495px;
+  height: 140px;
+  background: transparent;
+  border-radius: 10px; 
+display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-left:175px;
+  flex-direction:column;
+
+}
+
+#lis1{
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+
+
+
+}
+#lis1 li{
+  margin-right: 22px;
+  font-size: 13px;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+#lis2{
+  display: flex;
+  list-style: none;
+  margin-top: 0px;
+  margin-left: -20px;
+  margin-right: 1px;
+}
+#lis2 li{
+  margin-right: 19.5px;
+  font-size: 13px;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+#lis3{
+  display: flex;
+  list-style: none;
+  margin-left: -10px;
+
+}
+#lis3 li{
+
+  margin-right: 29px;
+  font-size: 16px;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: -15px;
+}
+svg{
+fill: whitesmoke;
+}
+.material-symbols-outlined{
+  color: gold;
+}
+#seis,#siete,#ocho,#nueve,#diez,#once,#doce{
+  display: none;
+}
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n{
+  display: none;
+}
+#l2{
+  margin-left: 5px;
+}
+#l3{
+  margin-left: 7px;
+}
+#l4{
+  margin-left: 0px;
+}
+#l5{
+  margin-left: 0px;
+}
+#l6{
+  margin-left: 9px;
+}
+#lcr{
+  margin-left: 10px;
+}
+/* FLECHAS*/
+.flechas{
+margin-left:480px;
+margin-top: -90px;
+display:none;
+}
+.material-symbol-outlined2{
+  margin-left: 515px;
+}
+.feels{
+  width: 140px;
+  height: 140px;
+  background: transparent;
+  border-radius: 10px; 
+  display: flex;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin-left: 36%;
+  margin-top: 30px;
+}
+.feels li{
+  list-style: none;
+  margin-left: -25px;
+}
+#f1{
+  color: whitesmoke;
+font-size: 15px;
+margin-top: -18px;
+margin-left: -38px;
+font-weight: bolder;
+}
+#f0 svg{
+  fill: whitesmoke;
+}
+#f2{
+  color: whitesmoke;
+  margin-left:-52px ;
+  font-size: 35px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+#f3{
+  color: silver;
+  font-size: 13px;
+  margin-left: -52px;
+  margin-top: 35px;
+}
+.humid{
+  width: 140px;
+  height: 140px;
+  background: transparent;
+  border-radius: 10px; 
+  display: flex;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin-left: 47%;
+  margin-top: -140px;
+}
+.humid li{
+  list-style: none;
+  margin-left: -25px;
+}
+#h1{
+  color: whitesmoke;
+font-size: 15px;
+margin-top: -18px;
+margin-left: -38px;
+font-weight: bolder;
+}
+#h0 svg{
+  fill: whitesmoke;
+}
+#h2{
+  color: whitesmoke;
+  margin-left:-52px ;
+  font-size: 35px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+#h3{
+  color: silver;
+  font-size: 13px;
+  margin-left: -52px;
+  margin-top: 35px;
+}
+.visi{
+  width: 140px;
+  height: 140px;
+  background: transparent;
+  border-radius: 10px; 
+  display: flex;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin-left: 58%;
+  margin-top: -140px;
+}
+.visi li{
+  list-style: none;
+  margin-left: -25px;
+}
+#v1{
+  color: whitesmoke;
+font-size: 15px;
+margin-top: -18px;
+margin-left: -38px;
+font-weight: bolder;
+}
+#v0 svg{
+  fill: whitesmoke;
+}
+#v2{
+  color: whitesmoke;
+  margin-left:-52px ;
+  font-size: 35px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+#v3{
+  color: silver;
+  font-size: 13px;
+  margin-left: -52px;
+  margin-top: 35px;
+}
+.end{
+  color: silver;
+  font-size: 14px;
+  margin-left: 710px;
+  margin-top: 30px;
+}
